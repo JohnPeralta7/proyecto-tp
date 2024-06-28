@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color:   lavender;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px;
+}
+
+li {
+    text-align: center;
+    margin: 4px;
+    width: 200px;
+    padding: 0;
+}
+
+a {
+    -webkit-text-stroke: 1px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+  transition: 300ms;
+  background-color:     lightsteelblue;
+}
+
+#logo {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    left: 5px;
+    height: 55px;
+}
+
+#k{
+    height: 40px;
+}
+
+#search {
+    padding: 5px;
+    width: 360px;
+}
+
+#send {
+    margin-top: 5px;
+    height: 26px;
+    width: 50px;
+}
