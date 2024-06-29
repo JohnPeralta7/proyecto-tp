@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 
@@ -36,25 +36,26 @@ li:hover{
 }
 
 #logo {
-    display: flex;
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-    left: 5px;
-    height: 55px;
+    display: inline-block;
+    position: absolute;
+    height: 45px;
 }
 
 #k{
+    display: inline-block;
     height: 40px;
 }
 
 #search {
-    padding: 5px;
+    display: inline-block;
+    padding: 3px;
     width: 360px;
 }
 
 #send {
-    margin-top: 5px;
-    height: 26px;
+    display: inline-flexbox;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    height: 24px;
     width: 50px;
 }
