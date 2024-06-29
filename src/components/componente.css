@@ -1,0 +1,13 @@
+.Comp{
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    left: 100px;
+    }
+#imgg{
+    width: 225px;
+    height: 245px;
+}
