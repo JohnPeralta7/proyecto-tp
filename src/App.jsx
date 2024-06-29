@@ -1,8 +1,9 @@
 
+import Naveg from './components/Naveg';
 import './App.css';
+import Showkart from './components/Showkart';
 import Componente from './components/componente';
 import phone from './data/phone';
-
 function App() {
   let phoneList = phone.map((d) => {
     return <Componente img={d.img} title={d.name} description=
@@ -12,11 +13,16 @@ function App() {
     perfil={d.perfil} peso={d.peso} precio={d.precio} button={d.button} add={d.add} />
   })
   return (
-    <div className="App">
-      <div className='Pos'>
-       {phoneList}
-      </div>
+    <>
+    <Naveg />
+    <Showkart/>
+    <div className='Pos'>
+      {phoneList}
     </div>
+    
+    </>
+      
+    
   );
 }
 
