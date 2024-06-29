@@ -9,7 +9,7 @@ function App() {
     {d.description} pantalla={d.pantalla} procesador={d.procesador}
     ram={d.ram} almacenamiento={d.almacenamiento} expansion={d.expansion} 
     camara={d.camara} bateria={d.bateria} os={d.os} 
-    perfil={d.perfil} peso={d.peso} precio={d.precio} />
+    perfil={d.perfil} peso={d.peso} precio={d.precio} button={d.button} add={d.add} />
   })
   return (
     <div className="App">

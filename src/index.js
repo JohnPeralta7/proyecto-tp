@@ -14,7 +14,7 @@ let routes = [
 
 phone.forEach(p => {
   routes.push({
-    path: p.img,
+    path: p.button,
     element: <Phoneview p={phone}/>
   })
 })
