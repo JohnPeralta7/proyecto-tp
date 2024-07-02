@@ -59,3 +59,33 @@ li:hover{
     height: 24px;
     width: 50px;
 }
+
+#kart {
+    border: none;
+    background-color: lavender;
+}
+
+
+#kart:hover {
+    transition: 300ms;
+    background-color: lightsteelblue;
+}
+table {
+    display: inline-block;
+    position: relative;
+    left: 78%;
+    background-color: lavender;
+    padding: 0px 10px 10px 10px;
+    border: black solid;
+    border-width: 1px;
+    padding-right: 10px;
+    align-items: center;
+}
+th {
+    border: black solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 1px;
+
+}
