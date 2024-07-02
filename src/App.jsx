@@ -1,7 +1,6 @@
 
 import Naveg from './components/Naveg';
 import './App.css';
-import Showkart from './components/Showkart';
 import Componente from './components/componente';
 import phone from './data/phone';
 function App() {
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
     <Naveg />
-    <Showkart/>
     <div className='Pos'>
       {phoneList}
     </div>
@@ -25,5 +23,5 @@ function App() {
     
   );
 }
-
+//ARREGLAR EL APARTADO DE BARRA DE NAVEGACION QUE SEA RESPONSIVE, Y QUE SEA POSITION STICKY PARA QUE SIEMPRE SE VEA AUNQUE SE BAJE
 export default App;
