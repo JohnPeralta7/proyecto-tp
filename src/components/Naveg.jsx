@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import './Naveg.css'
 import logo from '../img/logo-removebg-preview.png'
 import kart from '../img/kartb.png'
+import garbage from '../img/image-removebg-preview.png'
 
 export let Naveg = ({allProducts, setAllProducts}) => {
     const [active, setActive] = useState(false);
+	const Deleteproduct = (product) => {
+		const results = allProducts.filter((item)=> item.id !== product.id)
+		setAllProducts(results)
+	}
   return (
     <>
     <nav>
@@ -28,6 +33,7 @@ export let Naveg = ({allProducts, setAllProducts}) => {
 									{product.precio}
 								</span>
 							</div>
+								<div className='' onClick={()=> Deleteproduct(product)}><img src={garbage} id='g'></img></div>
 						</div>
 						))}
 							</div>
