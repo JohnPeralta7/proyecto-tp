@@ -21,7 +21,7 @@ let phone = [
         os: "<b>OS:</b><i> iOS 13</i>",
         perfil: "<b>Perfil:</b><i> 8.3 mm</i>",
         peso: "<b>Peso:</b><i>194 g</i>",
-        precio: "699 USD",
+        precio: 699,
         quantity: 1
 
     },
@@ -40,7 +40,7 @@ let phone = [
         os: "<b>OS:</b><i> iOS 14</i>",
         perfil: "<b>Perfil:</b><i> 7.4 mm</i>",
         peso: "<b>Peso:</b><i>164 g</i>",
-        precio: "799 USD",
+        precio: 799,
         quantity: 1
    
     },
@@ -59,7 +59,7 @@ let phone = [
         os: "<b>OS:</b><i> iOS 15</i>",
         perfil: "<b>Perfil:</b><i> 7.7 mm</i>",
         peso: "<b>Peso:</b><i>174 g</i>",
-        precio: "799 USD",
+        precio: 799,
         quantity: 1
        
     },
@@ -78,7 +78,7 @@ let phone = [
         os: "<b>OS:</b><i> iOS 16</i>",
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 172 g</i>",
-        precio: "799 USD",
+        precio: 799,
         quantity: 1
 
 
@@ -98,7 +98,7 @@ let phone = [
         os: "<b>OS:</b><i> iOS 17</i>",
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 171 g</i>",
-        precio: "800 USD",
+        precio: 800,
         quantity: 1
 
     }

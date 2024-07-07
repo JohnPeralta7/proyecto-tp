@@ -3,14 +3,21 @@ import { Link } from 'react-router-dom'
 import phone from '../data/phone';
 
 
-export let Componente = ({allProducts, setAllProducts}) => {
+export let Componente = ({allProducts, setAllProducts, total, setTotal}) => {
   let onAddProductt = product => {
 
     if(allProducts.find(item => item.id === product.id)){
-      
+      let products = allProducts.map(item => item.id === product.id ? {...item, quantity: item.quantity +1} :
+        item
+      )
+      setTotal(total + product.precio * product.quantity)
+      return setAllProducts([...products])
     }
 
+    setTotal(total + product.precio * product.quantity)
     setAllProducts([...allProducts, product])
+
+
   }
   console.log(allProducts)
   return (
