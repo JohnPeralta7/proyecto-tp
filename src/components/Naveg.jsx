@@ -4,7 +4,7 @@ import logo from '../img/logo-removebg-preview.png'
 import kart from '../img/kartb.png'
 import garbage from '../img/image-removebg-preview.png'
 
-export let Naveg = ({allProducts, setAllProducts}) => {
+export let Naveg = ({allProducts, setAllProducts, total, setTotal}) => {
     const [active, setActive] = useState(false);
 	const Deleteproduct = (product) => {
 		const results = allProducts.filter((item)=> item.id !== product.id)
@@ -30,7 +30,7 @@ export let Naveg = ({allProducts, setAllProducts}) => {
 									{product.name}
 								</p>
 								<span className='precio-producto-carrito'>
-									{product.precio}
+									${product.precio}
 								</span>
 							</div>
 								<div className='' onClick={()=> Deleteproduct(product)}><img src={garbage} id='g'></img></div>
@@ -39,8 +39,9 @@ export let Naveg = ({allProducts, setAllProducts}) => {
 							</div>
 							<div className='cart-total'>
 								<h3>Total:</h3>
-								<span className='total-pagar'>$200</span>
-							</div></>
+								<span className='total-pagar'>${total}</span>
+							</div>
+							</>
 					) : (
 						<p className='cart-empty'>El carrito está vacío</p>					  
 					)
