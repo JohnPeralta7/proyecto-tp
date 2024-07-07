@@ -8,11 +8,7 @@ function Naveg() {
     <>
     <nav>
         <ul>
-            <li><a>Icel<img src={logo} id='logo' alt='logo'></img></a></li>
-            <form>
-              <input type='text' id='search' placeholder='Encuenta el iPhone que necesitas'></input>
-              <button id='send'>🔍</button>
-            </form>            
+            <li><a>Icel<img src={logo} id='logo' alt='logo'></img></a></li>           
             <div className='' onClick={() => setActive(!active)}><img src={kart} id='k'></img></div>	
 				<div
 					className={`container-cart-products ${active ? '' : 'hidden-cart'}`}>

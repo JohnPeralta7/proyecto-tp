@@ -1,10 +1,9 @@
 import './componente.css'
-import { Link } from 'react-router-dom'
-
 
 
 
 function Componente(props) {
+
   return (
     <div className='Comp'>
       <img src={props.img} alt="" id='imgg' />

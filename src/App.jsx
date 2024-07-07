@@ -4,6 +4,7 @@ import './App.css';
 import Componente from './components/componente';
 import phone from './data/phone';
 
+
 function App() {
   let phoneList = phone.map((d) => {
     return <Componente  img={d.img} title={d.name} description=
@@ -14,11 +15,11 @@ function App() {
   })
   return (
     <>
-    <Naveg />
-    <div className='Pos'>
+      <Naveg />
+      <div className='Pos'>
       {phoneList}
-    </div>  
-   
+      </div>  
+    
     </>
       
   );

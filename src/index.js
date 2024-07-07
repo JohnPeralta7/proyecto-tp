@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider  } from 'react-router-dom';
 import phone from './data/phone';
 import Phoneview from './views/Phoneview';
 
+
+
 let routes = [
   {    
     path: '/',
@@ -26,3 +28,5 @@ root.render(
     <RouterProvider router={router}/>
   </React.StrictMode>
 );
+
+//<Skartcontext
