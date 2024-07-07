@@ -5,6 +5,11 @@ import phone from '../data/phone';
 
 export let Componente = ({allProducts, setAllProducts}) => {
   let onAddProductt = product => {
+
+    if(allProducts.find(item => item.id === product.id)){
+      
+    }
+
     setAllProducts([...allProducts, product])
   }
   console.log(allProducts)

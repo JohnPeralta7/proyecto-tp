@@ -22,6 +22,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 8.3 mm</i>",
         peso: "<b>Peso:</b><i>194 g</i>",
         precio: "699 USD",
+        quantity: 1
 
     },
     {
@@ -40,6 +41,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.4 mm</i>",
         peso: "<b>Peso:</b><i>164 g</i>",
         precio: "799 USD",
+        quantity: 1
    
     },
     {
@@ -58,6 +60,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.7 mm</i>",
         peso: "<b>Peso:</b><i>174 g</i>",
         precio: "799 USD",
+        quantity: 1
        
     },
     {
@@ -76,6 +79,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 172 g</i>",
         precio: "799 USD",
+        quantity: 1
 
 
     },
@@ -95,6 +99,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 171 g</i>",
         precio: "800 USD",
+        quantity: 1
 
     }
 ]
