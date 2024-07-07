@@ -68,18 +68,18 @@ li:hover{
 
 #kart:hover {
     transition: 300ms;
-    background-color: lightsteelblue;
+    background-color: rgb(255, 255, 255);
 }
 table {
     display: inline-block;
     position: relative;
     left: 78%;
-    background-color: lavender;
+    background-color: rgb(236, 236, 236);
     padding: 0px 10px 10px 10px;
-    border: black solid;
     border-width: 1px;
     padding-right: 10px;
     align-items: center;
+    border-radius: 10px;
 }
 th {
     border: black solid;
@@ -88,4 +88,25 @@ th {
     border-right-style: none;
     border-width: 1px;
 
+}
+
+.container-cart-products {
+	position: absolute;
+	top: 50px;
+	right: 0;
+
+	background-color: #fff;
+	width: 400px;
+	z-index: 1;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+.hidden-cart {
+	display: none;
+}
+
+.cart-empty {
+	padding: 20px;
+	text-align: center;
 }

@@ -21,8 +21,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 8.3 mm</i>",
         peso: "<b>Peso:</b><i>194 g</i>",
         precio: "<b>Precio:</b><i> 699 USD</i>",
-        button: "Comprar",
-        add: "Añadir"
+        add: "Añadir al carrito"
     },
     {
         img: iphone12,
@@ -39,8 +38,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.4 mm</i>",
         peso: "<b>Peso:</b><i>164 g</i>",
         precio: "<b>Precio:</b><i> 799 USD</i>",
-        button: "Comprar",
-        add: "Añadir"
+        add: "Añadir al carrito",
     },
     {
         img: iphone13,
@@ -57,8 +55,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.7 mm</i>",
         peso: "<b>Peso:</b><i>174 g</i>",
         precio: "<b>Precio:</b><i> 799 USD</i>",
-        button: "Comprar",
-        add: "Añadir"
+        add: "Añadir al carrito",
     },
     {
         img: iphone14,
@@ -75,8 +72,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 172 g</i>",
         precio: "<b>Precio:</b><i> 799 USD</i>",
-        button: "Comprar",
-        add: "Añadir"
+        add: "Añadir al carrito"
 
     },
     {
@@ -94,8 +90,7 @@ let phone = [
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 171 g</i>",
         precio: "<b>Precio:</b><i> 800 USD</i>",
-        button: "Comprar",
-        add: "Añadir"
+        add: "Añadir al carrito"
     }
 ]
 

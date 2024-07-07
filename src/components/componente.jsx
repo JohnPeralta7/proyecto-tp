@@ -1,6 +1,9 @@
 import './componente.css'
 import { Link } from 'react-router-dom'
 
+
+
+
 function Componente(props) {
   return (
     <div className='Comp'>
@@ -17,10 +20,10 @@ function Componente(props) {
         <p dangerouslySetInnerHTML={{__html: props.perfil}}></p>
         <p dangerouslySetInnerHTML={{__html: props.peso}}></p>
         <p dangerouslySetInnerHTML={{__html: props.precio}}></p>
-        <Link to={props.button}><button id='boton' dangerouslySetInnerHTML={{__html: props.button}}></button></Link><br />
-        <button id='boton' dangerouslySetInnerHTML={{__html: props.add}}></button>
+        <button id='boton' onClick>{props.add}</button>
     </div>
   )
 }
 
 export default Componente
+//<Link to={props.button}><button id='boton' dangerouslySetInnerHTML={{__html: props.button}}></button></Link><br />
