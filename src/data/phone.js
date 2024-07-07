@@ -7,6 +7,7 @@ import iphone15 from '../assets/iphone15.png'
 
 let phone = [
     {
+        id:1,
         img: iphone11,
         name: "iPhone 11",
         description: "",
@@ -20,10 +21,11 @@ let phone = [
         os: "<b>OS:</b><i> iOS 13</i>",
         perfil: "<b>Perfil:</b><i> 8.3 mm</i>",
         peso: "<b>Peso:</b><i>194 g</i>",
-        precio: "<b>Precio:</b><i> 699 USD</i>",
-        add: "Añadir al carrito"
+        precio: "699 USD",
+
     },
     {
+        id:2,
         img: iphone12,
         name: "iPhone 12",
         description: "",
@@ -37,10 +39,11 @@ let phone = [
         os: "<b>OS:</b><i> iOS 14</i>",
         perfil: "<b>Perfil:</b><i> 7.4 mm</i>",
         peso: "<b>Peso:</b><i>164 g</i>",
-        precio: "<b>Precio:</b><i> 799 USD</i>",
-        add: "Añadir al carrito",
+        precio: "799 USD",
+   
     },
     {
+        id:3,
         img: iphone13,
         name: "iPhone 13",
         description: "",
@@ -54,10 +57,11 @@ let phone = [
         os: "<b>OS:</b><i> iOS 15</i>",
         perfil: "<b>Perfil:</b><i> 7.7 mm</i>",
         peso: "<b>Peso:</b><i>174 g</i>",
-        precio: "<b>Precio:</b><i> 799 USD</i>",
-        add: "Añadir al carrito",
+        precio: "799 USD",
+       
     },
     {
+        id:4,
         img: iphone14,
         name: "iPhone 14",
         description: "",
@@ -71,11 +75,12 @@ let phone = [
         os: "<b>OS:</b><i> iOS 16</i>",
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 172 g</i>",
-        precio: "<b>Precio:</b><i> 799 USD</i>",
-        add: "Añadir al carrito"
+        precio: "799 USD",
+
 
     },
     {
+        id:5,
         img: iphone15,
         name: "iPhone 15",
         description: "",
@@ -89,8 +94,8 @@ let phone = [
         os: "<b>OS:</b><i> iOS 17</i>",
         perfil: "<b>Perfil:</b><i> 7.8 mm</i>",
         peso: "<b>Peso:</b><i> 171 g</i>",
-        precio: "<b>Precio:</b><i> 800 USD</i>",
-        add: "Añadir al carrito"
+        precio: "800 USD",
+
     }
 ]
 
