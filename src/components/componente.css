@@ -3,11 +3,17 @@
     width: 300px;
     padding: 10px;
     text-align: center;
-    border: 2px solid black;
-    position: relative;
+    border: 1px solid black;
+    position:relative;
     left: 100px;
     background-color: lavender;
+    margin: 18px;
     }
+   
+.conten{
+    display: flex;
+    flex-wrap: wrap;
+}
 #imgg{
     width: 225px;
     height: 245px;
