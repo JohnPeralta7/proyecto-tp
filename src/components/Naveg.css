@@ -111,9 +111,12 @@ li:hover{
 	font-weight: 900;
 }
 
-
-
 #g {
 	width: 20px;
+}
+
+.price {
+	font-size: 24px;
+	font-weight: 900;
 }
 

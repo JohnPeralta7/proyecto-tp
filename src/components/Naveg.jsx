@@ -8,6 +8,8 @@ export let Naveg = ({allProducts, setAllProducts, total, setTotal}) => {
     const [active, setActive] = useState(false);
 	const Deleteproduct = (product) => {
 		const results = allProducts.filter((item)=> item.id !== product.id)
+
+		setTotal(total - product.precio * product.quantity)
 		setAllProducts(results)
 	}
   return (

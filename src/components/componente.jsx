@@ -31,6 +31,7 @@ export let Componente = ({allProducts, setAllProducts, total, setTotal}) => {
         <img src={product.img} alt="" id='imgg' />
       </figure>
         <h2>{product.name}</h2>
+        <p className='price'>${product.precio}</p>
         <p dangerouslySetInnerHTML={{__html: product.pantalla}}></p> 
         <p dangerouslySetInnerHTML={{__html: product.procesador}}></p>
         <p dangerouslySetInnerHTML={{__html: product.ram}}></p>
@@ -41,7 +42,6 @@ export let Componente = ({allProducts, setAllProducts, total, setTotal}) => {
         <p dangerouslySetInnerHTML={{__html: product.os}}></p>
         <p dangerouslySetInnerHTML={{__html: product.perfil}}></p>
         <p dangerouslySetInnerHTML={{__html: product.peso}}></p>
-        <p dangerouslySetInnerHTML={{__html: product.precio}}></p>
         <button id='boton' onClick={() => onAddProductt(product)}>Añadir al carrito</button>
         </div>
       ))}
